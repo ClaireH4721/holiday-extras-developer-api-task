@@ -24,6 +24,7 @@ npm run lint
 npm test
 npm t
 ```
+
 ## Static Analysis
 See report [here](https://sonarcloud.io/dashboard?id=ClaireH4721_holiday-extras-developer-api-task)
 You can run sonarqube static analysis locally using the following steps:
