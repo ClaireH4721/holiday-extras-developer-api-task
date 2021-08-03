@@ -6,7 +6,6 @@
   "scripts": {
     "lint": "eslint --fix --max-warnings 0 'src/**/*.js'",
     "test": "jest --coverage",
-    "sonar": "node sonar-project.js",
     "start": "nodemon src/main/index.js"
   },
   "author": "",
@@ -29,7 +28,6 @@
     "eslint-plugin-import": "^2.23.4",
     "jest": "^27.0.6",
     "jest-sonar-reporter": "^2.0.0",
-    "sonarqube-scanner": "^2.8.1",
     "supertest": "^6.1.4"
   },
   "jest": {
