@@ -27,20 +27,6 @@ npm t
 
 ## Static Analysis
 See report [here](https://sonarcloud.io/dashboard?id=ClaireH4721_holiday-extras-developer-api-task)
-You can run sonarqube static analysis locally using the following steps:
-* Run the following command:
-```bash
-npm run sonar
-```
-* Navigate to [localhost:9000/](http://localhost:9000/)
-* Log in using admin details: Login: Admin, Password: Admin
-* Navigate to your account > security
-* Generate a new token
-* Copy token and replace 'YOUR_KEY_GOES_HERE' in sonar-project.js
-* Run the following command again:
-```bash
-npm run sonar
-```
 
 ## Usage
 
